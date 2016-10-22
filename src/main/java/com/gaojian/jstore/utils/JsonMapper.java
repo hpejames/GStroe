@@ -84,7 +84,7 @@ public class JsonMapper {
      * @see #constructParametricType(Class, Class...) 
      */  
     public <T> T fromJson(String jsonString, Class<T> clazz) {  
-        if (StringUtils.isEmpty(jsonString)) aa{  
+        if (StringUtils.isEmpty(jsonString)) {  
             return null;  
         }  
   
